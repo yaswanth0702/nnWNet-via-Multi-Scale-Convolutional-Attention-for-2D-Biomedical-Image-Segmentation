@@ -1,7 +1,7 @@
 # Enhancing Local Feature Modeling in nnWNet via Multi-Scale Convolutional Attention for 2D Biomedical Image Segmentation
 
 > **Missouri University of Science and Technology**  
-> Yaswanth Podapati (ypfg3@mst.edu) | Chandramurugan (ckgky@mst.edu)
+> Yaswanth Podapati (ypfg3@mst.edu) 
 
 ---
 
