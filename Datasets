@@ -1,1 +1,43 @@
+# Datasets
 
+This project uses two publicly available 2D biomedical image segmentation datasets.
+The datasets are NOT included in this repository due to size and licensing restrictions.
+Please download them from the official sources below.
+
+---
+
+## 1. DRIVE – Digital Retinal Images for Vessel Extraction
+
+- Task: Retinal vessel segmentation
+- Total Images: 40 fundus photographs (20 train / 20 test)
+- Resolution: 565 × 584 pixels
+- Challenge: Thin and branching vessel structures
+
+Download:
+- Official: https://drive.grand-challenge.org/
+- Kaggle:   https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction
+
+Preprocessing applied:
+- CLAHE enhancement for vessel contrast
+- Normalization
+- Resized to 256x256
+
+---
+
+## 2. ISIC-2017 – Skin Lesion Segmentation Challenge
+
+- Task: Dermoscopic skin lesion segmentation
+- Total Images: 2000 training / 150 validation / 600 test
+- Challenge: Irregular shapes and unclear lesion boundaries
+
+Download:
+- Official: https://challenge.isic-archive.com/data/#2017
+- Kaggle:   https://www.kaggle.com/datasets/humansintheloop/skin-lesions-isic-2017
+
+Preprocessing applied:
+- Normalization to reduce illumination variations
+- Resized to 256x256
+
+---
+
+After downloading, place the datasets inside this Datasets/ folder before running any notebooks.
