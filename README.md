@@ -166,7 +166,6 @@ Key references used in this project:
 | Name | Institution | Email |
 |------|-------------|-------|
 | Yaswanth Podapati | Missouri S&T | ypfg3@mst.edu |
-| Chandramurugan | Missouri S&T | ckgky@mst.edu |
 
 ---
 
